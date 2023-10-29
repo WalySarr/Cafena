@@ -1,0 +1,74 @@
+
+body {
+    background: url("images/details.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.img-fluid {
+    width: 50%;
+    height: auto;
+}
+
+.container {
+    height: 100vh
+}
+
+.card {
+    background-color: #3d2927;
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #eee;
+    right: 90px;
+
+}
+.px-2 {
+    padding-right: .5rem!important;
+    padding-left: .5rem!important;
+    color: #ffc107;
+}
+.h4, h4 {
+    font-size: calc(1.275rem + .3vw);
+    color: #aa6538;
+}
+.h3, h3 {
+    font-size: calc(1.3rem + .6vw);
+    color: #a02b06;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    color: gold;
+    background: black;
+}
+.inner-card {
+    background:white;
+    padding: 10px;
+    border-radius: 5px
+}
+
+.heart {
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #beb4aa;
+    border-radius: 50%;
+    background-color: #eee
+}
+
+.btn:focus {
+    color: #fff;
+    background-color: #025ce2;
+    border-color: #0257d5;
+    box-shadow: none
+}
+
+.card .px-2 span {
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
